@@ -1,10 +1,10 @@
 import './header.css';
 
-const Header = () => {
+export default function Header() {
   return (
     <div className='header'>
       <div className='headerTitles'>
-        <span className='headerTitleSm'>React</span>
+        <span className='headerTitleSm'>React & Node</span>
         <span className='headerTitleLg'>Blog</span>
       </div>
       <img
@@ -14,6 +14,4 @@ const Header = () => {
       />
     </div>
   );
-};
-
-export default Header;
+}

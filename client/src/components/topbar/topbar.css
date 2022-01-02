@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   font-family: 'Josefin Sans', sans-serif;
+  z-index: 999;
 }
 
 .topLeft,
@@ -21,13 +22,6 @@
   flex: 6;
 }
 
-.topImg {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
 .topIcon {
   font-size: 20px;
   margin-right: 10px;
@@ -35,21 +29,31 @@
   cursor: pointer;
 }
 
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
 .topList {
   display: flex;
   justify-content: center;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 .topListItem {
   margin-right: 20px;
   font-size: 18px;
-  font-weight: 300px;
+  font-weight: 300;
   cursor: pointer;
 }
 
 .topSearchIcon {
-  font-style: 18px;
+  font-size: 18px;
   color: #666;
   cursor: pointer;
   margin-left: 15px;
